@@ -52,7 +52,7 @@ Another concept which we are using is tf-idf from information retrieval because 
 Term frequency-inverse document frequency reflects how important a word is to a document in a collection or corpus.Tf-idf can be calculated easily using spacy library of nlp. So, now it is easy to differentiate relevant and irrevelant tweets as tweets containing more number of content words with high tf-idf scores are categorised as relevant tweets. We know need to summarize tweets using content words with more tf-idf scores and it should be short(obviously!).
 
 
-Therefore, we need to generate a summary of less thn 150 words and full of content words. An equation can be framed for maximizing the total tf-idf score of our summary and using constraint like it should be less than 150 words. 
+Therefore, we need to generate a summary of less than 150 words and full of content words. An equation can be framed for maximizing the total tf-idf score of our summary and using constraint like it should be less than 150 words. 
 By using Pymathproj library of python this equation can be solved and we can get a summarized form of tweets.
 
 - How users can get started with the project
