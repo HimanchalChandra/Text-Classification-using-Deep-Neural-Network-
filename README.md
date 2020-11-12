@@ -1,6 +1,6 @@
 # Codefundo 2018
   
- We are planning to build a system which can categorize or classify a textual data using python Deep Neural Network with the help of Google TensorFlow.  
+ We are planning to build a system which can categorize or classify a textual data using Recurrent Neural Network Model trained using Google Tensorflow.  
 
 ## how does it works
 
