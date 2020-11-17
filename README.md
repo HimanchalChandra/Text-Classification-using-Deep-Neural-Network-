@@ -70,7 +70,7 @@ This is how you can perform tensorflow text classification. You can use this app
 
 ## How users can get started with the project
 
-Users like NGO's, organisations etc can get categorical tweets from our project which can help them to get different informations like information regarding infrastructure damage, no. of deaths etc. So, this project can help them to figure out current situation and take decision accordingly.
+NGO's, organisations etc can get categorical tweets from our project which can help them to get different informations like information regarding infrastructure damage, no. of deaths etc. So, this project can help them to figure out current situation and take decision accordingly.
 
 ## Dataset used
 
