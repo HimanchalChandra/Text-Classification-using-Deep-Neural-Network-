@@ -1,10 +1,18 @@
 # Codefundo 2018
   
- Implemented a system which can categorize or classify a textual data using Recurrent Neural Network Model trained using Google Tensorflow.  
+ Implemented a system which can categorize or classify a textual data using Deep Neural Network Model trained using Google Tensorflow.  
  
 ## Text Classification
 
-Text Classification is the task of assigning the right label to a given piece of text. This text can either be a phrase, a sentence or even a paragraph. Our aim would be to take in some text as input and attach or assign a label to it. Since we will be using Tensor Flow Is deep learning library, we can call this the Tensorflow text classification system. 
+Text Classification is the task of assigning the right label to a given piece of text. This text can either be a phrase, a sentence or even a paragraph. Our aim would be to take in some text as input and attach or assign a label to it. Since we will be using tensorFlow Is deep learning library, we can call this the tensorflow text classification system. 
+
+<br>
+
+<p align="center">
+ <img src = "txt-classifier2.png">
+</p> 
+
+<br>
 
 ## Some NLP terminologies
 
@@ -34,13 +42,11 @@ Before we train a model that can classify a given text to a particular category,
 
  We are using a dataset of 2014_India_floods which contains tweets from twitter as text and its assigned category. In this dataset we are having 9 different categories regarding natural disaster. We will be having a JSON with 9 categories. For each category, we have a set of sentences which we can use to train our model.
 
-Given this data, we have to classify any given sentence into one of these 5 categories.
+Given this data, we have to classify any given sentence into one of these 9 categories.
 
 ## Step 2: Data Load and Pre-processing
 
 We will be creating multiple lists and each list “words” will hold all the unique stemmed words in all the sentences provided for training. Another list “categories” holds all the different categories.
-
-the output of this step is the “docs” list which contains the words from each sentence and which category the sentence belongs. An example document is ([“whats”, “your”, “age”], “age”).
 
 The output of this step is the list which contains the words from each sentence and which category the sentence belongs. An example document is ([“whats”, “your”, “age”], “age”).
 
@@ -50,7 +56,7 @@ From the previous step, we have documents but they are still in the text form. T
 
 ## Step 4: Initiate Tensorflow Text Classification
 
-With the documents in the right form, we can now begin the Tensorflow text classification. In this step, we build a simple Deep Neural Network and use that for training our model.The code runs for a 100 epochs with a batch size of 20 and it took around 2 hours to finish training.
+With the documents in the right form, we can now begin the tensorflow text classification. In this step, we build a simple Deep Neural Network and use that for training our model.The code runs for a 100 epochs with a batch size of 20 and it took around 2 hours to finish training.
 
 The size of data and the type of GPU heavily determine the time taken for training.
 
