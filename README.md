@@ -64,7 +64,7 @@ The size of data and the type of GPU heavily determine the time taken for traini
 
 We can now test the neural network text classification python model. The model was able to correctly classify almost all the sentences. There will definitely be a lot of sentences that might fail to be classified correctly. This is only because the amount of data is less. with more and more data, you can be assured the model will be more confident.
 
-## Conclusion and Next Steps
+## Conclusion
 
 This is how you can perform tensorflow text classification. You can use this approach and scale it to perform a lot of different classification. You can use it to build chatbots as well.
 
@@ -72,11 +72,11 @@ This is how you can perform tensorflow text classification. You can use this app
 
 Users like NGO's, organisations etc can get categorical tweets from our project which can help them to get different informations like information regarding infrastructure damage, no. of deaths etc. So, this project can help them to figure out current situation and take decision accordingly.
 
-## Dataset we are using
+## Dataset used
 
 We are using dataset of the 2014 India Floods.
 
-## Technologies used by us:
+## Technologies used
 1. Python
 2. Machine Learning
 3. Data Science
