@@ -78,12 +78,11 @@ We are using dataset of the 2014 India Floods.
 
 ## Technologies used
 1. Python
-2. Machine Learning
-3. Data Science
-4. Information Retrieval
-5. Natural Language Processing
-6. Deep learning
-7. Tensorflow
+2. Information Retrieval
+3. Natural Language Processing
+4. Deep learning
+5. Tensorflow
+6. NLTK
 
 ## Video Link
 https://www.youtube.com/watch?v=eoFKlHBbSXo
